@@ -74,20 +74,16 @@ else if (pets <= allowedPets) {
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
-// pets is 2 and friendsPets is 4, the below creates checks pets vs friendsPets and assigns
-// true or false. The console log is true. 
+let mostPets;
 
-let mostPets = pets > friendsPets;
-
-if (mostPets = true) {
+if (pets < friendsPets) {
+    mostPets = friendsPets;
     console.log("My friend has more pets");
 } else {
+    mostPets = pets;
     console.log("I have more pets");
 }
-
 console.log(mostPets);
-
-
 
 
 // 17 - Write a *switch* statement that logs:
