@@ -113,5 +113,5 @@ switch (luckyNumber) {
 // if it's not true, console log "How about we stay home?"
 
 
-console.log(adventurous = true ? "Adventures are Great!" : "How about we stay home?")
+console.log(adventurous ? "Adventures are Great!" : "How about we stay home?")
 
